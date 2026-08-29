@@ -5,11 +5,11 @@
 These are the commands we have seen so far for git
 
 - git init - Create the repo (.git folder)
-- git add - 
+- git add - Puts new/changed files into the index (staging) for later saving (commit)
 - git commit - Saves
-- git log
-- git status
+- git log - Check and display the commit logs
+- git status - The status of the branch you are currently in
 - git switch - Switch between branches or between branches and the main branch
-- git merge - Creates infinite merge conflicts 😄
-- git remote -
-- git push
+- git merge - Combines branches, sometimes by fast-forwarding a branch
+- git remote - The remote repository you are connected to; for example, a remote repo on GitHub.com
+- git push - Uploads your local repository commits to a remote repository
